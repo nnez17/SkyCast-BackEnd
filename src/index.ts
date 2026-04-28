@@ -4,7 +4,7 @@ import { cors } from "@elysiajs/cors";
 const app = new Elysia()
   .use(
     cors({
-      origin: ["https://nnez17.github.io/"],
+      origin: ["https://nnez17.github.io/SkyCast/"],
     }),
   )
   .get("/weather", async ({ query }) => {
